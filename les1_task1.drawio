@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-08T13:07:45.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="por4KOnapKe_1HMQGaJG" version="13.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-08-08T13:46:44.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="9C2RFSihqBXQg-35CBHQ" version="13.6.1" type="github" pages="3">
   <diagram id="zwLIqgwyLgNwS5ci1XKf" name="Page-1">
     <mxGraphModel dx="1673" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,6 +125,143 @@
       <root>
         <mxCell id="j_uNDK9qzClNZgH11q8z-0" />
         <mxCell id="j_uNDK9qzClNZgH11q8z-1" parent="j_uNDK9qzClNZgH11q8z-0" />
+        <mxCell id="j_uNDK9qzClNZgH11q8z-2" value="3. Написать программу, которая генерирует в указанных пользователем границах:&#xa;a. случайное целое число,&#xa;b. случайное вещественное число,&#xa;c. случайный символ." style="text;whiteSpace=wrap;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-3" value="a)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry y="140" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-4" target="j_uNDK9qzClNZgH11q8z-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-4" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="60" y="135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-5" target="j_uNDK9qzClNZgH11q8z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-5" value="Ввод&lt;br&gt;Xmin, Xmax" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="60" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-7" target="j_uNDK9qzClNZgH11q8z-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-7" value="Расчет случайного вещественного числа в диапазоне от Xmin до Xmax:&lt;br&gt;&lt;br&gt;X = (Xmax - Xmin)*R + Xmin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="35" y="370" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-8" target="j_uNDK9qzClNZgH11q8z-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-8" value="Генерация&amp;nbsp;&lt;br&gt;случайного&lt;br&gt;числа R от 0 до 1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="55" y="280" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-11" target="j_uNDK9qzClNZgH11q8z-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-11" value="Округление случайного вещественного числа в диапазоне от Xmin до Xmax&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="35" y="460" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-14" target="j_uNDK9qzClNZgH11q8z-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-14" value="Вывод&lt;br&gt;X" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="60" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-16" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="60" y="630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-19" value="b)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="205" y="140" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-21" target="j_uNDK9qzClNZgH11q8z-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-21" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="265" y="135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-23" target="j_uNDK9qzClNZgH11q8z-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-23" value="Ввод&lt;br&gt;Xmin, Xmax" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="265" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-25" value="Расчет случайного вещественного числа в диапазоне от Xmin до Xmax:&lt;br&gt;&lt;br&gt;X = (Xmax - Xmin)*R + Xmin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="240" y="370" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-27" target="j_uNDK9qzClNZgH11q8z-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-27" value="Генерация&amp;nbsp;&lt;br&gt;случайного&lt;br&gt;числа R от 0 до 1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="260" y="280" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-25" target="j_uNDK9qzClNZgH11q8z-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-31" target="j_uNDK9qzClNZgH11q8z-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-31" value="Вывод&lt;br&gt;X" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="265" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-32" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="265" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-33" value="c)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="470" y="135" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-35" target="j_uNDK9qzClNZgH11q8z-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-35" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="530" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-37" target="j_uNDK9qzClNZgH11q8z-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-37" value="Ввод символов анлг. алфавита&lt;br&gt;Smin, Smax" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="510" y="185" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-39" target="j_uNDK9qzClNZgH11q8z-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-39" value="Расчет случайного вещественного числа в диапазоне от Xmin до Xmax:&lt;br&gt;&lt;br&gt;X = (Xmax - Xmin)*R + Xmin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="505" y="460" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-41" target="j_uNDK9qzClNZgH11q8z-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-41" value="Генерация&amp;nbsp;&lt;br&gt;случайного&lt;br&gt;числа R от 0 до 1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="525" y="370" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-43" target="j_uNDK9qzClNZgH11q8z-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-43" value="Округление случайного вещественного числа в диапазоне от Xmin до Xmax&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="505" y="550" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-45" target="j_uNDK9qzClNZgH11q8z-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-45" value="Вывод&lt;br&gt;S" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="530" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-46" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="530" y="800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-47" target="j_uNDK9qzClNZgH11q8z-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-47" value="Определение порядковых номеров введенных символов в англ. алфавите:&lt;br&gt;Xmin, Xmax" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="510" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="j_uNDK9qzClNZgH11q8z-1" source="j_uNDK9qzClNZgH11q8z-50" target="j_uNDK9qzClNZgH11q8z-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j_uNDK9qzClNZgH11q8z-50" value="Определение символа англ. алфавита по его порядковому номеру X:&lt;br&gt;S" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="j_uNDK9qzClNZgH11q8z-1">
+          <mxGeometry x="520" y="630" width="140" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
