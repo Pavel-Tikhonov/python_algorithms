@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-18T15:49:56.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="z65Xw0flaImj3DFPlYcU" version="13.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-08-18T16:42:21.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="PKqEWBQbnHIZfdPZwU4D" version="13.6.1" type="github" pages="4">
   <diagram id="smsDoppsHjjnGYCxE9b8" name="Page-1">
     <mxGraphModel dx="1185" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -443,6 +443,80 @@
         </mxCell>
         <mxCell id="DDxYfuZBoBvlgUZXFFEf-43" value="s +=str(d)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S6PEc5mL2aQQSECg5Ocf-1">
           <mxGeometry x="362.5" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_8xe9YWvFRgF-fzmIHvE" name="Page-4">
+    <mxGraphModel dx="1185" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-0" />
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-1" parent="HPrVQLvvJaEeMFrhrhrx-0" />
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-2" value="&lt;h3 style=&quot;box-sizing: border-box; font-family: roboto, &amp;quot;san francisco&amp;quot;, &amp;quot;helvetica neue&amp;quot;, helvetica, arial; font-weight: 500; line-height: 24px; color: rgb(63, 83, 104); margin-top: 20px; margin-bottom: 10px; font-size: 17px; font-style: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;4. Найти сумму n элементов следующего ряда чисел: 1, -0.5, 0.25, -0.125,… Количество элементов (n) вводится с клавиатуры.&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="HPrVQLvvJaEeMFrhrhrx-1" source="HPrVQLvvJaEeMFrhrhrx-3" target="HPrVQLvvJaEeMFrhrhrx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-3" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry x="354" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HPrVQLvvJaEeMFrhrhrx-1" source="HPrVQLvvJaEeMFrhrhrx-4" target="HPrVQLvvJaEeMFrhrhrx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-4" value="Ввод&lt;br&gt;n" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry x="354" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="HPrVQLvvJaEeMFrhrhrx-1" source="HPrVQLvvJaEeMFrhrhrx-6" target="HPrVQLvvJaEeMFrhrhrx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-6" value="my_sum = 0&lt;br&gt;n0 = -2&lt;br&gt;delta = -0.5&lt;br&gt;my_list = []&lt;br&gt;i =0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry x="354" y="280" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HPrVQLvvJaEeMFrhrhrx-1" source="HPrVQLvvJaEeMFrhrhrx-8" target="HPrVQLvvJaEeMFrhrhrx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="HPrVQLvvJaEeMFrhrhrx-1" source="HPrVQLvvJaEeMFrhrhrx-8" target="HPrVQLvvJaEeMFrhrhrx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-8" value="i &amp;lt; n" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry x="374.5" y="390" width="79" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-9" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry x="420" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-10" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry x="447" y="390" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="HPrVQLvvJaEeMFrhrhrx-1" source="HPrVQLvvJaEeMFrhrhrx-12" target="HPrVQLvvJaEeMFrhrhrx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-12" value="n_nxt = n0 * delta&lt;br&gt;my_list.append(n_nxt)&lt;br&gt;my_sum += n_nxt&lt;br&gt;n0 = n_nxt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry x="341" y="470" width="146" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="HPrVQLvvJaEeMFrhrhrx-1" source="HPrVQLvvJaEeMFrhrhrx-13" target="HPrVQLvvJaEeMFrhrhrx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-13" value="Вывод&lt;br&gt;my_list&lt;br&gt;my_sum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry x="580" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-14" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry x="580" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-20" value="n0 = -2 для корректного расчета первого элемента ряда в ходе первой итерации (в случае, если пользователь введет n = 1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry x="530" y="250" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="HPrVQLvvJaEeMFrhrhrx-1" source="HPrVQLvvJaEeMFrhrhrx-22" target="HPrVQLvvJaEeMFrhrhrx-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="600" />
+              <mxPoint x="280" y="600" />
+              <mxPoint x="280" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPrVQLvvJaEeMFrhrhrx-22" value="i +=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HPrVQLvvJaEeMFrhrhrx-1">
+          <mxGeometry x="341" y="560" width="146" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
