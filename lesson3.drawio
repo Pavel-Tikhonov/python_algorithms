@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-23T19:36:33.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="t9tFr2eLwj6sLFdH2a1z" version="13.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-23T19:55:04.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="ZKBvYwy7__jPyLYP9uZg" version="13.6.2" type="github" pages="2">
   <diagram id="UblckJTL871BeZPqsF_j" name="Page-1">
     <mxGraphModel dx="981" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,8 +57,8 @@
         <mxCell id="Upz_fQ-KNtgx0G5-ZzAt-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Upz_fQ-KNtgx0G5-ZzAt-14" target="Upz_fQ-KNtgx0G5-ZzAt-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Upz_fQ-KNtgx0G5-ZzAt-14" value="While &lt;br&gt;j &amp;lt;= len(array2)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="351.5" y="710" width="125" height="100" as="geometry" />
+        <mxCell id="Upz_fQ-KNtgx0G5-ZzAt-14" value="While &lt;br&gt;j &amp;lt;= len(array2) - 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344.75" y="710" width="138.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Upz_fQ-KNtgx0G5-ZzAt-15" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="810" width="40" height="20" as="geometry" />
@@ -164,8 +164,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TQnLIrH4AyEwqm7nfKwb-8" value="While&lt;br&gt;i &amp;lt;= len(array)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="TQnLIrH4AyEwqm7nfKwb-1">
-          <mxGeometry x="323.5" y="370" width="113" height="80" as="geometry" />
+        <mxCell id="TQnLIrH4AyEwqm7nfKwb-8" value="While&lt;br&gt;i &amp;lt;= len(array) - 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="TQnLIrH4AyEwqm7nfKwb-1">
+          <mxGeometry x="311.75" y="370" width="136.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TQnLIrH4AyEwqm7nfKwb-9" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="TQnLIrH4AyEwqm7nfKwb-1">
           <mxGeometry x="380" y="440" width="40" height="20" as="geometry" />
